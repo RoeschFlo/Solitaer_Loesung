@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+*.opendb
+*.db-wal
+*.db-shm
+/.vs/raylib_test
+/raylib_test/raylib_test.vcxproj.filters
+/raylib_test/raylib_test.vcxproj
+/raylib_test.sln
