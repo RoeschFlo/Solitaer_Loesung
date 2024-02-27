@@ -1,0 +1,90 @@
+# Visual Studio Code
+.vscode/
+.vs/
+.vc**
+
+# Build-Verzeichnisse
+bin/
+build/
+out/
+
+# CMake Build-Verzeichnisse
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+
+# Compiler-spezifische Dateien und Verzeichnisse
+*.suo
+*.user
+*.userstate
+*.sdf
+*.opensdf
+*.cachefile
+*.compiled
+*.com
+
+# C++ spezifisch
+*.o
+*.obj
+*.exe
+*.dll
+*.ilk
+*.pdb
+*.idb
+*.manifest
+*.ipch/
+*.pch
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Allgemeine Temporäre Dateien
+*.log
+*.tmp
+*.tmp.*
+*~
+*.swp
+*.bak
+*.BAK
+*.vspscc
+*_i.c
+*_p.c
+*.NCB
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.manifest
+*.sdf
+*.opensdf
+*.pyc
+*.pyo
+*.suo
+*.sbr
+*.ldb
+*.idb
+*.ipdb
+*.pdb
+*.obj
+*.res
+*.aps
+*.ncb
+*.plg
+*.bsc
+*.lib
+*.suo
+*.exp
+*.go
+*.a
+*.pyc
+*.pyo
+__pycache__/
+*.h
+*.hpp
