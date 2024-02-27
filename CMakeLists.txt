@@ -14,7 +14,11 @@ include_directories(${INCLUDE_PATH})
 add_library(libraylib STATIC IMPORTED)
 set_target_properties(libraylib PROPERTIES IMPORTED_LOCATION ${LIBRARY_PATH})
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} 
+    src/main.cpp
+    src/spielfeld.cpp
+    src/buttons.cpp
+                            )
 
 # Verlinke das Ziel mit der importierten Bibliothek
 target_link_libraries(${PROJECT_NAME} 
