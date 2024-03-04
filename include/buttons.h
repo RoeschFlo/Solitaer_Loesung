@@ -11,10 +11,20 @@ namespace solitaer_ns{
     public:
         Button(int x, int y);
 
-        //void draw_m();
-        bool isClicked_m();
+        
+        bool isClicked_m(void);
+        bool isHovering_m(void);
+
+        int get_x(void);
+        int get_y(void);
+
+        Color color;
+
     private:
-	    //bool isHovering_m();
+        int x_m, y_m;
+
+    
+	    
 
     };
 };

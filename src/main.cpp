@@ -15,7 +15,7 @@
 int main()
 {
     solitaer_ns::gameboard_class gameboard_obj;
-
+    
     
    
 
@@ -28,11 +28,15 @@ int main()
     while (!WindowShouldClose())
     {
         //Update
+        gameboard_obj.check_buttons();
+
+        
+        gameboard_obj.manipulate_game_board();
 
         //Draw
         BeginDrawing();
         
-            //ClearBackground(RAYWHITE);
+        //ClearBackground(RAYWHITE);
         DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);  
         DrawTextureEx(spielfeld_tex, {0.0f, 0.0f}, 0.0f, 0.5f , WHITE);
 
